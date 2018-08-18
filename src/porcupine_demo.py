@@ -180,7 +180,7 @@ if __name__ == '__main__':
         '--model_file_path',
         help='absolute path to model parameter file',
         type=str,
-        default=os.path.join(os.path.dirname(__file__), '../../lib/common/porcupine_params.pv'))
+        default=os.path.join(os.path.dirname(__file__), '../lib/common/porcupine_params.pv'))
 
     parser.add_argument('--sensitivity', help='detection sensitivity [0, 1]', default=0.5)
     parser.add_argument('--input_audio_device_index', help='index of input audio device', type=int, default=None)
