@@ -98,3 +98,7 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+.DS_Store
+
+src/_snowboydetect.so
